@@ -7,7 +7,7 @@ from reportlab.lib import colors
 
 
 def create_perfect_cv_optimized():
-    pdf_path = "Write here how you want call the file + .pdf at the end"
+    pdf_path = "CV.pdf"
 
     doc = SimpleDocTemplate(
         pdf_path,
